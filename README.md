@@ -13,5 +13,6 @@ pip install geci_test_tools
 
 ### Functions
 - `if_exist_remove()`
+- `calculate_hash()`
 - `assert_not_exist()`
-- `assert_exist()` 
+- `assert_exist()`

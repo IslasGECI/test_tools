@@ -7,11 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.1] - 2024-03-05
-
 ### Added
-
-- Functions `if_exist_remove()`, `assert_not_exist()` and `assert_exist()`
 
 ### Fixed
 
@@ -19,6 +15,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [0.1.2] - 2024-03-05
 
-[unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.1.1...HEAD
-[0.0.1]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v0.0.1
+### Added
+
+- Function `calculate_hash()`
+
+## [0.1.1] - 2024-03-05
+
+### Added
+
+- Functions `if_exist_remove()`, `assert_not_exist()` and `assert_exist()`
+
+[unreleased]: https://github.com/IslasGECI/test_tools/compare/v1.1.1...HEAD
+[0.1.2]: https://github.com/IslasGECI/test_tools/compare/v0.1.1...v0.1.2
+[0.0.1]: https://github.com/IslasGECI/test_tools/releases/tag/v0.0.1
