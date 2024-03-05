@@ -5,7 +5,7 @@ import os
 def test_if_exist_remove():
     output_path = "tests/demofile3.txt"
     write_dummy_file(output_path)
-    assert_not_exist(output_path)
+    assert_exist(output_path)
     gtt.if_exist_remove(output_path)
     assert_not_exist(output_path)
 
@@ -18,3 +18,7 @@ def write_dummy_file(output_path):
 
 def assert_not_exist(output_path):
     assert not (os.path.exists(output_path))
+
+
+def assert_exist(output_path):
+    assert os.path.exists(output_path)
