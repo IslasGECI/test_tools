@@ -1,3 +1,4 @@
+import hashlib
 import geci_test_tools as gtt
 
 
