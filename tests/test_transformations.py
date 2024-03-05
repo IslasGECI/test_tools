@@ -15,7 +15,7 @@ def test_calculate_hash():
     write_dummy_file(output_path)
     file_content = open(output_path, "rb").read()
     obtained_hash = hashlib.md5(file_content).hexdigest()
-    assert obtained_hash == "345"
+    assert obtained_hash == "413f18697f9d955c4ffac1e06032721b"
 
 
 def write_dummy_file(output_path):
