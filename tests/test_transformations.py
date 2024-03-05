@@ -14,7 +14,7 @@ def test_calculate_hash():
     output_path = "tests/demofile3.txt"
     write_dummy_file(output_path)
     file_content = open(output_path, "rb").read()
-    obtained_hash = hashlib.md5(file_content).hexdigest()
+    obtained_hash = gtt.calculate_hash()
     assert obtained_hash == "413f18697f9d955c4ffac1e06032721b"
 
 
