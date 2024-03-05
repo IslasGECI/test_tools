@@ -1,4 +1,3 @@
-import hashlib
 import geci_test_tools as gtt
 
 
@@ -13,8 +12,7 @@ def test_if_exist_remove():
 def test_calculate_hash():
     output_path = "tests/demofile3.txt"
     write_dummy_file(output_path)
-    file_content = open(output_path, "rb").read()
-    obtained_hash = gtt.calculate_hash()
+    obtained_hash = gtt.calculate_hash(output_path)
     assert obtained_hash == "413f18697f9d955c4ffac1e06032721b"
 
 
