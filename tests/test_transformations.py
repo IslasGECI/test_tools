@@ -1,9 +1,14 @@
 import geci_test_tools as dt
+import os
 
 
-def test_add_offset():
-    augend = 1
-    addend = 2
-    expected = augend + addend
-    obtained = dt.add_offset(augend, addend)
-    assert expected == obtained
+def test_if_exist_remove():
+    output_path = "tests/demofile3.txt"
+    write_dummy_file(output_path)
+    assert os.path.exists(output_path)
+
+
+def write_dummy_file(output_path):
+    f = open(output_path, "w")
+    f.write("Woops! I have deleted the content!")
+    f.close()
