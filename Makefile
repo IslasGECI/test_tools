@@ -13,8 +13,8 @@ all: check coverage mutants
 		setup \
 		tests
 
-module = test_tools
-codecov_token = 6c56bccb-1758-4ed9-8161-97c845591c26
+module = geci_test_tools
+codecov_token = b8b30204-0a81-432c-9d58-27a45a4c709c
 
 define lint
 	pylint \
