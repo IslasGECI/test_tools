@@ -1,5 +1,4 @@
 import geci_test_tools as gtt
-import os
 
 
 def test_if_exist_remove():
